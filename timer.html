@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+
+
+    <style>
+      #timer {
+        font-size: 4rem;
+        margin-top: 1rem;
+        text-align: center;
+      }
+      html, body {
+        height: 100%;
+      }
+
+      html {
+        display: table;
+        margin: auto;
+      }
+      body {
+        display: table-cell;
+        vertical-align: top;
+      }
+      h1, h2, p, script {
+        text-align: center;
+        font-size: value;
+      }
+      p {
+        text-align: center;
+        font-size: 150%;
+      }
+      input {
+        text-align: center;
+        font-size: 70%;
+      }
+      button{
+        Display: block;
+        Margin: auto;
+      }
+      div{
+        clear: both;
+        width: 100%;
+        border-top: ;
+      }
+    </style>
+</head>
+
+<body id="reportsPage">
+        <div id="home" class="container">
+
+              
+
+
+                <h1>Timer Custom</h1>
+                <br />
+                <p>Click 'Add set' to insert sets for your time (in second)</p>
+                <p>After you have created your timer, click Start!</p>
+                <!--
+                <p>Inserisci la durata dell'allenamento (in secondi):</p>
+                <p> Set1 <input type="number" id="1" placeholder="Durata in secondii"> </p>
+                <p> Pausa1 <input style="font-size:70%;" type="number" id="cicloP1" placeholder="Durata in secondi"> </p>
+                <p> Set2 <input style="font-size:70%;" type="number" id="cicloS2" placeholder="Durata in secondi"> </p>
+                <p> Pausa2 <input style="font-size:70%;" type="number" id="cicloP2" placeholder="Durata in secondi"> </p>
+                -->
+        </div>
+        <div class="container">
+                <button style="font-size:130%;" onclick="addSet()">Add set</button>
+                <br />
+                <button style="font-size:130%;" onclick="startTimer()">Start</button>
+
+              
+        <div id="timer"></div>
+
+                      
+
+
+        </div>
+        <!-- script di funzionamento del timer -->
+        <script src="script.js"></script>
+
+
+
+</body>
+</html>
